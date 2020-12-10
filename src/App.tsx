@@ -1,7 +1,13 @@
-import HomePage from "./Home";
+import HomePage from './Home'
+import { NormalizeStyles } from './utils'
 
 function App() {
-  return <HomePage />;
+  return (
+    <>
+      <NormalizeStyles />
+      <HomePage />
+    </>
+  )
 }
 
-export default App;
+export default App
